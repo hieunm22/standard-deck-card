@@ -1,52 +1,12 @@
-# Prerequisites
-*.d
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# testing
+/TestResults
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# misc
+/DeckCard.App/bin
+/DeckCard.App/obj
+/DeckCard.Lib/bin
+/DeckCard.Lib/obj
+/DeckCard.Test/bin
+/DeckCard.Test/obj
