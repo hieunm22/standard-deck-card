@@ -10,12 +10,12 @@
 
 This is a Decking card example application, that does 2 actions: randomly shuffles a standard deck of 52 playing cards and sort a standard deck of 52 playing cards in ascending order.
 
-The ascending order term is defined by the increment of card's type (clubs -> spades -> hearts -> diamonds) and it's value (Ace = 1, 2, 3, 4, 5,... Jack = 11, Queen = 12, King = 13). If 2 card has the same type then sort them by their values ascending
+The ascending order term is defined by the increment of card's type (clubs -> spades -> hearts -> diamonds) and it's value (Ace = 1, 2, 3, 4, 5,... Jack = 11, Queen = 12, King = 13). If 2 cards have the same type then sort them by their values ascending
 
 The source code contains 3 project: 
 - `DeckCard.App` is the main one, has console type, used to run the console and print 2 outputs of 2 function: shuffer and sort card
-- `DeckCard.Libs` is the class library project that contains common things that provides functions and models for main project to run
-- `DeckCard.Test` is the NUnit test project that checks the test cases of 2 functions above
+- `DeckCard.Libs` is the class library project contains common things that provides functions and models for main project to run
+- `DeckCard.Test` is the NUnit test project checks the test cases of 2 functions above
 
 ## Development Guideline
 
