@@ -26,12 +26,11 @@ Testing is done with **dotnet test**. Run the full test suite with
 |--------------------------------|-------------|---------------|----------|--------------|
 | GenerateRandomCardsCollection  | 0           | 0%            | 18       | 100%         |
 | SortAscending                  | 0           | 0%            | 6        | 100%         |
-| `<`SortAscending`>`b__1_0(CardModel, CardModel)   | 0                    | 0%                     | 3                | 100%               |
+| `<`SortAscending`>`b__1_0(CardModel, CardModel)   | 0      | 0%      | 3    | 100%     |
 
 Coverage report format is export as `test-coverage.xml`.
 ## TODO
 - [x] Provide `GenerateRandomCardsCollection` function that randomly shuffles a standard deck of 52 playing cards
 - [x] Provide `SortAscending` that sorts a standard deck of 52 playing cards in ascending order
 - [x] Write test cases for 2 functions above
-- [x] Export test coverage
-		<SortAscending>b__1_0(DeckCard.Model.CardModel, DeckCard.Model.CardModel)	0	0,00%	3	100,00%
+- [x] Export test coverage `<SortAscending>b__1_0(DeckCard.Model.CardModel, DeckCard.Model.CardModel)`

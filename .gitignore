@@ -4,6 +4,8 @@
 /TestResults
 
 # misc
+.vs
+.vscode
 /DeckCard.App/bin
 /DeckCard.App/obj
 /DeckCard.Lib/bin
